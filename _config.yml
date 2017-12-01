@@ -1,6 +1,6 @@
 # Site settings
 title: Sync Tab Groups
-email: your-email@domain.com
+email: synctabgroups@gmail.com
 url: https://morikko.github.io/synctabgroups/
 description: "Sync Tab Groups are an easy way to organize your current tabs depending on a topic. Each open group is synchronized with a window so that all tabs change are saved. Hence, you can close a current tabs-flow while opening another one."
 keywords: "workflow tabs organization browser"
@@ -25,8 +25,8 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
+  primary: 2aa1c0 # Home color
+  primary-rgb: 0e647d # Portfolio hover
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
@@ -48,8 +48,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 
-  - line: 
+  - line:   '<label style="right: auto; left: 263px; top: 4px; margin: 0px;"><span class="fa fa-code" style="color:black;"></span> with <span class="fa fa-heart" style="color:red;"></span> from <img src="img/france_flag.png" alt="France"></label>'
+  - line: '<label style="right: auto; left: 263px; top: 4px; margin: 0px;"> As an Open Source project.</label>'
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
