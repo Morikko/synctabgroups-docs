@@ -3,8 +3,11 @@
     {% include head.html %}
     <body id="page-top" class="index">
     {% include nav.html %}
+    <div class="main-container">
     {% include header.html %}
-    {% include portfolio_grid.html %}
+    {% include presentation.html %}
+    {% include demo.html %}
+    {% include guide.html %}
     {% include about.html %}
 
     {% if site.contact == "static" %}
@@ -17,6 +20,7 @@
 
     {% include footer.html %}
     {% include modals.html %}
+    </div>
     {% include js.html %}
     </body>
 </html>
