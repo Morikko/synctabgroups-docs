@@ -39,12 +39,12 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
-    url: comingsoon
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/Morikko/sync-tab-groups
   - title: firefox
-    url: http://github.com/jekyll
+    url: https://addons.mozilla.org/en-US/firefox/addon/sync-tab-groups/
+  - title: chrome
+    url: coming
 
 # Postal address (add as many lines as necessary)
 address:
