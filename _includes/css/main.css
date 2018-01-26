@@ -8,6 +8,12 @@ body {
     overflow-x: hidden;
 }
 
+.main-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 p {
     font-size: 20px;
 }
@@ -82,6 +88,12 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
     background: #{{ site.color.primary }};
 }
 
@@ -93,6 +105,7 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
+    height: 128px;
 }
 
 header .intro-text .name {
@@ -104,8 +117,21 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.browser-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+.browser-link img {
+  display: inline-block;
+  height: 128px;
 }
 
 @media(min-width:768px) {
@@ -123,9 +149,14 @@ header .intro-text .skills {
     }
 }
 
+@media(max-width:768px) {
+  .navbar-header {
+    width: 100%;
+  }
+}
+
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -139,7 +170,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -147,10 +178,29 @@ header .intro-text .skills {
     }
 }
 
+@media(max-height:800px) {
+  header .intro-text .name {
+      font-size: 2em;
+  }
+
+  header img, .browser-link img {
+    height: 64px;
+  }
+}
+
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar a:focus {
