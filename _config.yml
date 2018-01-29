@@ -2,6 +2,12 @@
 title: Sync Tab Groups
 email: synctabgroups@gmail.com
 url: https://morikko.github.io/synctabgroups/
+
+urls:
+  github: https://github.com/Morikko/sync-tab-groups
+  firefox: https://addons.mozilla.org/en-US/firefox/addon/sync-tab-groups/
+  chrome: #
+
 description: "Sync Tab Groups are an easy way to organize your current tabs depending on a topic. Each open group is synchronized with a window so that all tabs change are saved. Hence, you can close a current tabs-flow while opening another one."
 keywords: "workflow tabs organization browser"
 skills: "Sync Tab Groups are an easy way to organize your current tabs depending on a topic. Each open group is synchronized with a window so that all tabs change are saved. Hence, you can close a current tabs-flow while opening another one."
