@@ -8,6 +8,9 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 contact-intro">
+				You can contact me here or open a discussion on the <a href="https://github.com/Morikko/sync-tab-groups/issues">Github</a>.
+			</div>
 			<div class="col-lg-8 col-lg-offset-2">
 				<form  action="https://formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm" novalidate>
 					<div class="row control-group">
@@ -24,10 +27,12 @@
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
-					<div>
-						<input type="hidden"  name="_subject" value="New submission!">
-						<input type="text" name="_gotcha" style="display:none" />
-					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label>Subject</label>
+							<input type="text" name="_subject" class="form-control" placeholder="Subject" id="subject" required data-validation-required-message="Please enter a subject.">
+							<p class="help-block text-danger"></p>
+						</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>Message</label>
