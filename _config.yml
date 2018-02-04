@@ -8,9 +8,8 @@ urls:
   firefox: https://addons.mozilla.org/en-US/firefox/addon/sync-tab-groups/
   chrome: #
 
-description: "Sync Tab Groups are an easy way to organize your current tabs depending on a topic. Each open group is synchronized with a window so that all tabs change are saved. Hence, you can close a current tabs-flow while opening another one."
+description: "Sync Tab Groups is an easy way to manage all your tabs. You organize them depending on a topic by group. Groups can be closed and reopend without caring about your session. Moreover, you can esily search, active, move, save and remove your groups and tabs."
 keywords: "workflow tabs organization browser"
-skills: "Sync Tab Groups are an easy way to organize your current tabs depending on a topic. Each open group is synchronized with a window so that all tabs change are saved. Hence, you can close a current tabs-flow while opening another one."
 meta_author: Morikko
 
 # Google webmaster tools

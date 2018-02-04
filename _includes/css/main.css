@@ -18,6 +18,10 @@ p {
     font-size: 20px;
 }
 
+section ul {
+  font-size: 20px;
+}
+
 p.small {
     font-size: 16px;
 }
@@ -149,33 +153,75 @@ header .intro-text .skills {
     }
 }
 
-@media(max-width:950px) {
+.github-div {
+  position: absolute;
+  right: 15px;
+}
+
+@media(max-width:1000px) {
+
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   .navbar-header {
     width: 100%;
   }
+
+  .navbar-collapse.collapse {
+    display: none;
+  }
+
+  .navbar-collapse.collapse.in {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .navbar-toggle {
+    display: block;
+    margin-right: 100px;
+  }
 }
 
-@media(min-width:950px) {
-    .navbar-fixed-top {
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
+
+@media(min-width:1000px) {
+    .navbar-toggle {
+      display: none;
     }
 
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+    .navbar-collapse.collapse {
+      display: block;
     }
+}
 
-    .navbar-fixed-top.navbar-shrink {
+@media(min-width:1100px) {
+  .navbar-fixed-top {
+      -webkit-transition: padding .3s;
+      -moz-transition: padding .3s;
+      transition: padding .3s;
+  }
 
-    }
+  .navbar-fixed-top .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+  }
 
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
+  .navbar-fixed-top.navbar-shrink {
+
+  }
+
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
+      font-size: 1.5em;
+  }
 }
 
 @media(max-height:800px) {
@@ -518,6 +564,7 @@ footer .footer-below {
   color: #fff;
   padding: 0 !important;
   margin-right: 15px;
+  margin-left: 15px;
 }
 /******* END NAV ******/
 
