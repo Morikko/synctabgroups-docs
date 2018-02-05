@@ -1,5 +1,6 @@
  <!-- Portfolio Modals -->
- {% for post in site.posts %}
+ {% assign guides = site.pages | where_exp: "item" , "item.path contains 'guides'"%}
+ {% for post in guides %}
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -14,7 +15,7 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="img/guide/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -31,6 +32,7 @@
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            {{ post.content }}
                         </div>
                     </div>
                 </div>

@@ -9,19 +9,20 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                        <span class="portfolio-link">{{ post.title }}</span>
-                    </div>
-                {% endfor %}
+              {% assign guides = site.pages | where_exp: "item" , "item.path contains 'guides'"%}
+              {% for post in guides %}
+              <div class="col-sm-4 portfolio-item">
+                  <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                      <div class="caption">
+                          <div class="caption-content">
+                              <i class="fa fa-search-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="img/guide/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                  </a>
+                  <span class="portfolio-link">{{ post.title }}</span>
+              </div>
+              {% endfor %}
             </div>
         </div>
     </section>
