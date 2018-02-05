@@ -34,7 +34,7 @@ description:
  - Check: Save the edition
 
 ### Switch
- - Click on the Group Name (and around)
+ - Left click on the Group Name (and around)
  - On a closed group:
    - In the current window:
      - The previous group is closed (and saved)
@@ -51,6 +51,7 @@ description:
  - Your current window and its tabs keep unchanged
  - A new window is opened and then the tabs of the group are opened inside
  - You can switch back & forth between the windows
+ - A middle click (mouse) on the group name opens it in a new window 
 
 ### Close
  - Click on the Cross on a group
