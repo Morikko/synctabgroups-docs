@@ -33,7 +33,7 @@ Tabs are shown or hidden with the chevron button.
     - The window containing the tab and is focused and the tab activated
 
 ### Open in a new window
-A middle click (mouse) on the  tab title opens the group in a new window with directly the tab focused
+A <b>middle click (mouse)</b> on the  tab title opens the group in a new window with directly the tab focused
 
 ### Remove
 - A click on the cross:

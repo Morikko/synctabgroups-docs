@@ -26,6 +26,11 @@ Tabs are shown or hidden with the chevron button.
 - Closed 
 ![Group closed](img/guide/groups/group_closed.png){: .img-list }
 
+### Sort the groups
+![Group sort](img/guide/groups/group_sort.png)
+
+Choose the one you prefer in the Interface section of the Preferences.
+
 ### Edit the name
 ![Group edited](img/guide/groups/group_edit.png)
 
@@ -51,7 +56,7 @@ Tabs are shown or hidden with the chevron button.
  - Your current window and its tabs keep unchanged
  - A new window is opened and then the tabs of the group are opened inside
  - You can switch back & forth between the windows
- - A middle click (mouse) on the group name opens it in a new window 
+ - A <b>middle click</b> (mouse) on the group name opens it in a new window 
 
 ### Close
  - Click on the Cross on a group
@@ -94,4 +99,4 @@ Tabs are shown or hidden with the chevron button.
 ### Private Groups
 ![Private Group](img/guide/groups/group_private.png)
 
-See Private Window guide section
+See Private Window guide section (being written)
