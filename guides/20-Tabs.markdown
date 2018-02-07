@@ -10,17 +10,17 @@ description:
 #### A group with tabs
 ![Group with tabs](img/guide/groups/group_tabs_hovered.png)
 
- - Tabs are shown or hidden with the chevron button.
+Tabs are shown or hidden with the chevron button.
 
 ### State
-#### Hovered
-![Tab hovered](img/guide/tabs/tab_hovered.png)
-#### Focused and in current window
-![Tab current](img/guide/tabs/tab_current.png)
-#### Focused
-![Tab focused](img/guide/tabs/tab_focused.png)
-#### Closed 
-![Tab closed](img/guide/tabs/tab_closed.png)
+- Hovered
+![Tab hovered](img/guide/tabs/tab_hovered.png){: .img-list } 
+- Focused and in current window
+![Tab current](img/guide/tabs/tab_current.png){: .img-list } 
+- Focused
+![Tab focused](img/guide/tabs/tab_focused.png){: .img-list } 
+- Closed 
+![Tab closed](img/guide/tabs/tab_closed.png){: .img-list } 
 
 ### Switch
   - Left click on the tab title (and around)
@@ -33,7 +33,7 @@ description:
     - The window containing the tab and is focused and the tab activated
 
 ### Open in a new window
- - A middle click (mouse) on the  tab title opens the group in a new window with directly the tab focused
+A middle click (mouse) on the  tab title opens the group in a new window with directly the tab focused
 
 ### Remove
 - A click on the cross:

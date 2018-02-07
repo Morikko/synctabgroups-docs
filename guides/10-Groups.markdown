@@ -14,17 +14,17 @@ description:
 #### A group with tabs
 ![Group with tabs](img/guide/groups/group_tabs_hovered.png)
 
- - Tabs are shown or hidden with the chevron button.
+Tabs are shown or hidden with the chevron button.
 
 ### State 
-#### Hovered
-![Group hovered](img/guide/groups/group_hovered.png)
-#### Open in focused window
-![Group focused](img/guide/groups/group_focused.png)
-#### Open in another window
-![Group opened](img/guide/groups/group_opened.png)
-#### Closed 
-![Group closed](img/guide/groups/group_closed.png)
+- Hovered 
+![Group hovered](img/guide/groups/group_hovered.png){: .img-list } 
+- Open in focused window
+![Group focused](img/guide/groups/group_focused.png){: .img-list }
+- Open in another window
+![Group opened](img/guide/groups/group_opened.png){: .img-list }
+- Closed 
+![Group closed](img/guide/groups/group_closed.png){: .img-list }
 
 ### Edit the name
 ![Group edited](img/guide/groups/group_edit.png)
@@ -94,7 +94,4 @@ description:
 ### Private Groups
 ![Private Group](img/guide/groups/group_private.png)
 
-  - See Private Window guide section
-
-
-{: .small}
+See Private Window guide section

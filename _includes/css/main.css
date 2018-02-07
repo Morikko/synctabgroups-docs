@@ -503,24 +503,6 @@ footer .footer-below {
     box-shadow: none;
 }
 
-.modal-content h2 {
-  text-align: center;
-}
-
-.modal-content img, .modal-content button  {
-  display:block;
-  margin: auto;
-}
-
-.portfolio-modal .modal-content h2 {
-    margin: 0;
-    font-size: 3em;
-}
-
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
@@ -559,6 +541,42 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+/** content **/
+.modal-content h2 {
+  text-align: center;
+}
+
+.modal-content img, .modal-content button  {
+  display:block;
+  margin: auto;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img.img-list {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.shortcut-table {
+  border-collapse: collapse;
+}
+
+.shortcut-table th {
+  text-align: center;
+}
+
+.shortcut-table td {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /******* NAV ******/
