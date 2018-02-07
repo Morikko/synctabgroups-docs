@@ -9,7 +9,10 @@
                 </div>
             </div>
             <div class="row">
-              {% assign guides = site.pages | where_exp: "item" , "item.path contains 'guides'"%}
+              {% assign guides = site.pages
+                | where_exp: "item" , "item.path contains 'guides'"
+                | where_exp: "item" , "item.visible != false"
+                 %}
               {% for post in guides %}
               <div class="col-sm-4 portfolio-item">
                   <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
