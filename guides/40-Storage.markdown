@@ -1,6 +1,6 @@
 ---
 title: Storage
-modal-id: 9
+modal-id: storage
 img: storage.png
 alt: image-alt
 description: 

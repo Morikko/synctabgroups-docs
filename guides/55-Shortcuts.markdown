@@ -1,6 +1,6 @@
 ---
 title: Shortcuts
-modal-id: 55
+modal-id: shortcuts
 img: shortcuts.png
 alt: image-alt
 description: 

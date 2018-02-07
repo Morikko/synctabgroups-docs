@@ -1,5 +1,5 @@
 ---
-modal-id: 6
+modal-id: groups
 title: Groups
 order: 1
 img: groups.png

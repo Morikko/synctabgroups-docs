@@ -1,6 +1,6 @@
 ---
 title: Search
-modal-id: 25
+modal-id: search
 img: search.png
 alt: image-alt
 description:

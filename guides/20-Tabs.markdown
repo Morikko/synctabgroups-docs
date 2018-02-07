@@ -1,6 +1,6 @@
 ---
 title: Tabs
-modal-id: 1
+modal-id: tabs
 img: tabs.png
 alt: image-alt
 description:
