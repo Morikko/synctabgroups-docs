@@ -1,8 +1,17 @@
 ---
-title: Shortcuts Menu
+title: Actions Menu
 modal-id: 8
 img: actions.png
 alt: image-alt
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
+description: 
 ---
+### Menu
+![Actions Menu](img/guide/others/actions_menu.png)
+
+The menu appears with a right click on the Sync Tab Groups icon in the toolbar.
+
+### Functions:
+  - Manager: Open the Group Manager in another tab
+  - Export Groups: Save your groups where you want on your computer
+  - Back up (Manual): Save the groups in the backup folder (override previous backup)
+  - Preferences: Open the Preferences in another tab
