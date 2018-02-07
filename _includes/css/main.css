@@ -520,6 +520,7 @@ footer .footer-below {
 
 .portfolio-modal .close-modal:hover {
     opacity: .3;
+    background-color: #fff;
 }
 
 .portfolio-modal .close-modal .lr {
@@ -546,6 +547,10 @@ footer .footer-below {
 /** content **/
 .modal-content h2 {
   text-align: center;
+}
+
+.modal-content p, .modal-content ul{
+  font-size: 16px;
 }
 
 .modal-content img, .modal-content button  {
