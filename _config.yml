@@ -57,7 +57,7 @@ address:
   - line: '<label style="right: auto; left: 263px; top: 4px; margin: 0px;"> As an Open Source project.</label>'
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Based on the template <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer for jekyll</a>. Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
