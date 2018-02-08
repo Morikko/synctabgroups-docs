@@ -49,7 +49,7 @@ social:
   - title: firefox
     url: https://addons.mozilla.org/en-US/firefox/addon/sync-tab-groups/
   - title: chrome
-    url: coming
+    url: #
 
 # Postal address (add as many lines as necessary)
 address:
@@ -57,7 +57,8 @@ address:
   - line: '<label style="right: auto; left: 263px; top: 4px; margin: 0px;"> As an Open Source project.</label>'
 
 # Credits content
-credits: 'Based on the template <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer for jekyll</a>. Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Based on the template <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer for jekyll</a>. Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.<br/>
+Icons: <a href="https://www.freepik.com/free-vector/red-coming-soon-lettering_760449.htm">Freepik</a>'
 
 # Build settings
 markdown: kramdown
