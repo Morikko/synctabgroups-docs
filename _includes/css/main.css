@@ -16,16 +16,20 @@ body {
 
 #demo {
   height: 100%;
+  padding-bottom: 20px;
 }
 
 .video-container {
-  height: 80%;
+  height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 #presentation-video {
   width: 100%;
-  height: 100%;
+  flex: 1;
 }
 
 p {

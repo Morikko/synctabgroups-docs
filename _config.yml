@@ -6,7 +6,7 @@ url: https://morikko.github.io/synctabgroups/
 urls:
   github: https://github.com/Morikko/sync-tab-groups
   firefox: https://addons.mozilla.org/en-US/firefox/addon/sync-tab-groups/
-  chrome: #
+  chrome: https://chrome.google.com/webstore/detail/sync-tab-groups/gbkddinkjahdfhaiifploahejhmaaeoa
 
 description: "Sync Tab Groups is an easy way to manage all your tabs. You organize them depending on a topic by group. Groups can be closed and reopend without caring about your session. Moreover, you can esily search, active, move, save and remove your groups and tabs."
 keywords: "workflow tabs organization browser"
