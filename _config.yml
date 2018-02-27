@@ -8,7 +8,7 @@ urls:
   firefox: https://addons.mozilla.org/en-US/firefox/addon/sync-tab-groups/
   chrome: https://chrome.google.com/webstore/detail/sync-tab-groups/gbkddinkjahdfhaiifploahejhmaaeoa
 
-description: "Sync Tab Groups is an easy way to manage all your tabs. You organize them depending on a topic by group. Groups can be closed and reopend without caring about your session. Moreover, you can esily search, active, move, save and remove your groups and tabs."
+description: "Sync Tab Groups is an easy way to manage all your tabs. You organize them depending on a topic by group. Groups can be closed and reopened without caring about your session. Moreover, you can easily search, active, move, save and remove your groups and tabs."
 keywords: "workflow tabs organization browser"
 meta_author: Morikko
 
